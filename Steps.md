@@ -24,9 +24,32 @@ Month_Number = MONTH('Calendar'[Date])
  *   One to many Relationship is developed between both
 ## 4. DAX Functionalitites
  *   Primary KPI - Total Casualties and Total Accident values for Current Year and YoY growth
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+PreYr_Casualties = CALCULATE(SUM(Data[Number_of_Casualties]),SAMEPERIODLASTYEAR('Calendar'[Date]))
+YoY_Casualties = ([CY_Casualties]-[PreYr_Casualties])/[PreYr_Casualties]
+```
  *   Primary KPI's - Total Casualties by Accident Severity for Current Year and YoY growth
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
  *   Secondary KPI's - Total Casualties with respect to vehicle type for Current Year
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
  *   Monthly trend showing comparison of casualties for Current Year and Previous Year
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
  *   Casualties by Road Type for Current year
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
  *   Current Year Casualties by Area/ Location & by Day/Night
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
  *   Total Casualties and Total Accidents by Location
+```
+CY_Casualties = TOTALYTD(Sum(Data[Number_of_Casualties]),'Calendar'[Date])
+```
