@@ -17,4 +17,6 @@
 ## Dataset
 
 [Dataset](https://drive.google.com/file/d/1po_7QivCqGceixWVXCoX_ftzf8scG-sl/view) includes data of Pizza Sales for year 2022 and 2023 (upto Sep).
-# STEPS:
+
+## STEPS:
+![POWERBI functions we will learn](https://github.com/asmshkhaws/ROAD_ACCIDENT_POWER_BI/assets/119579424/0801a85a-7d1f-4505-b4c7-255300ddc41b)
