@@ -99,3 +99,10 @@ Since there are multiple vehicle types in "Vehicle_Type" column, so we need to c
  *   Add Maps (Casualties by Location)
  *   Location: Local_Authority_District, Latitude:Avg Latitude , Longitude: Avg Longitude
  *   Tooltip: Number_of_Casualties, Number_of_Vehicle
+
+(h) Add Slicers
+ *   Right click on "Weather_condition" -- New group -- Group all different condition into {Dry, Snow/Ice, Wet}.
+ *   Add Slicer (Field: Weather_condition(group))
+ *   Right click on "Road_condition" -- New group -- Group all different condition into {Fine, Fog/Snow, Other, Rain}.
+ *   Add Slicer (Field: Road_condition(group))
+ *   
