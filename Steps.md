@@ -105,4 +105,3 @@ Since there are multiple vehicle types in "Vehicle_Type" column, so we need to c
  *   Add Slicer (Field: Weather_condition(group))
  *   Right click on "Road_condition" -- New group -- Group all different condition into {Fine, Fog/Snow, Other, Rain}.
  *   Add Slicer (Field: Road_condition(group))
- *   
